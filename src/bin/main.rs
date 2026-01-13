@@ -27,6 +27,6 @@ fn main() -> ! {
         led.toggle();
         let delay_start = Instant::now();
         while delay_start.elapsed() < Duration::from_millis(500) {};
-        println!("LED toggled");
+        println!("LED toggled2");
     }
 }
